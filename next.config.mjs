@@ -11,7 +11,6 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-    loader: (width, src, quality) => `/components/assets/dog-face.svg`,
   },
 };
 
