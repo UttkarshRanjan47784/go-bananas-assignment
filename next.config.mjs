@@ -1,3 +1,5 @@
+import path from "path";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -9,6 +11,7 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
+    loader: (width, src, quality) => `/components/assets/dog-face.svg`,
   },
 };
 
