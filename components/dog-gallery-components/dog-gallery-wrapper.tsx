@@ -14,9 +14,6 @@ export default async function DogGalleryWrapper() {
     "https://api.thecatapi.com/v1/images/search?limit=10"
   );
 
-  console.log(`Dogs dogs`);
-  console.log(doggyPics);
-
   const renderDogPics = doggyPics.data.map(
     (item: doggyPicInfo, index: number) => {
       return (
