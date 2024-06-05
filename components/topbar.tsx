@@ -1,7 +1,7 @@
 import React from "react";
 import { ModeToggle } from "./theme/mode-toggle";
-import { Menu } from "lucide-react";
-import Link from "next/link";
+import HamMenu from "./ham-menu";
+import { Link } from "next-view-transitions";
 
 export default function TopBar() {
   return (
@@ -29,8 +29,8 @@ export default function TopBar() {
           </p>
         </Link>
       </div>
-      <div className="sm:hidden ml-3">
-        <Menu />
+      <div className="sm:hidden">
+        <HamMenu />
       </div>
       <ModeToggle />
     </div>
