@@ -1,9 +1,11 @@
-import { ModeToggle } from "@/components/theme/mode-toggle";
+import Hero from "@/components/hero";
+import TopBar from "@/components/topbar";
 
 export default function Home() {
   return (
-    <main>
-      <ModeToggle />
+    <main className="flex flex-col h-dvh w-full">
+      <TopBar />
+      <Hero />
     </main>
   );
 }
