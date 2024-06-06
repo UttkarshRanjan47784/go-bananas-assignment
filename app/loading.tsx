@@ -1,5 +1,5 @@
 import React from "react";
-import banana from "@/components/assets/bananas.svg";
+import banana from "@/public/bananas.svg";
 import Image from "next/image";
 
 export default function DogGalleryLoading() {

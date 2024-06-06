@@ -1,5 +1,5 @@
 import React from "react";
-import dogFace from "@/components/assets/dog-face.svg";
+import dogFace from "@/public/dog-face.svg";
 import Image from "next/image";
 
 export default function DogGalleryLoading() {
