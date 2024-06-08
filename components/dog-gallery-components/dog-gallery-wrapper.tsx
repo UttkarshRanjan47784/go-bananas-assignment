@@ -2,7 +2,6 @@ import React from "react";
 import axios from "axios";
 import Image from "next/image";
 import { DoggyPicInfo } from "@/types";
-import LoadingAni from "./loading-ani";
 
 export default async function DogGalleryWrapper() {
   let doggyPics = await axios.get(
